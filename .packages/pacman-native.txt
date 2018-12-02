@@ -156,6 +156,7 @@ qt5-styleplugins
 qt5ct
 ranger
 reiserfsprogs
+rofi
 rsync
 s-nail
 sbxkb
