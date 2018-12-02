@@ -63,6 +63,7 @@ gzip
 haveged
 htop
 i3-default-artwork
+i3blocks
 inetutils
 intel-ucode
 inxi
