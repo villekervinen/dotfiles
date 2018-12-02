@@ -6,6 +6,8 @@ alsa-plugins
 alsa-utils
 amd-ucode
 arandr
+arc-gtk-theme
+arc-icon-theme
 autoconf
 automake
 avahi

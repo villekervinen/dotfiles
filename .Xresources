@@ -6,58 +6,40 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-XTerm*background:        #222D31
-XTerm*foreground:        #d8d8d8
-XTerm*pointerColor:      #1ABB9B
-XTerm*faceName:          Fixed
-XTerm*faceSize:          11
-XTerm*reverseVideo:      on
-XTerm*selectToClipboard: true
+! colors
+!! special
+*.foreground:   #ffffff
+*.background:   #1d2330
+*.cursorColor:  #ffffff
+!! black
+*.color0:       #222222
+*.color8:       #222222
+!! red
+*.color1:       #dd3333
+*.color9:       #dd3333
+!! green
+*.color2:       #33ee33
+*.color10:      #33ee33
+!! yellow
+*.color3:       #eeee33
+*.color11:      #eeee33
+!! blue
+*.color4:       #33aaff
+*.color12:      #33aaff
+!! magenta
+*.color5:       #dd33dd
+*.color13:      #dd33dd
+!! cyan
+*.color6:       #33dddd
+*.color14:      #33dddd
+!! white
+*.color7:       #cccccc
+*.color15:      #cccccc
 
-*background:                      #222D31
-*foreground:                      #d8d8d8
-*fading:                          8
-*fadeColor:                       black
-*cursorColor:                     #1ABB9B
-*pointerColorBackground:          #2B2C2B
-*pointerColorForeground:          #16A085
-
-!! black dark/light
-*color0:                          #222D31
-*color8:                          #585858
-
-!! red dark/light
-*color1:                          #ab4642
-*color9:                          #ab4642
-
-!! green dark/light
-*color2:                          #7E807E
-*color10:                         #8D8F8D
-
-!! yellow dark/light
-*color3:                          #f7ca88
-*color11:                         #f7ca88
-
-!! blue dark/light
-*color4:                          #7cafc2
-*color12:                         #7cafc2
-
-!! magenta dark/light
-*color5:                          #ba8baf
-*color13:                         #ba8baf
-
-!! cyan dark/light
-*color6:                          #1ABB9B
-*color14:                         #1ABB9B
-
-!! white dark/light
-*color7:                          #d8d8d8
-*color15:                         #f8f8f8
-
-Xcursor.theme: xcursor-breeze
+Xcursor.theme: xcursor-breeze-snow
 Xcursor.size:                     0
 
-URxvt.font:                       xft:TerminessTTFNerdFontMono
+URxvt.font: xft:TerminessTTFNerdFontMono:size=12
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -65,12 +47,9 @@ URxvt.font:                       xft:TerminessTTFNerdFontMono
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#222D31
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
-URxvt*background:                 black
-URxvt*foreground:                 grey
 URxvt*saveLines:                  5000
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
