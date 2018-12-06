@@ -1,0 +1,60 @@
+* {
+  default-bg:   #1d2330ee;
+  default-fg:   #dddddd;
+  entry-fg:     #ffffff;
+  message-bg:   #343a47;
+  selected-bg:  #50586a;
+  selected-fg:  #ffffff;
+
+  spacing: 0;
+  background-color: transparent;
+
+  text-color: @default-fg;
+}
+
+window {
+  transparency: "real";
+  fullscreen: true;
+  background-color: @default-bg;
+}
+
+mainbox {
+  margin: 30%;
+}
+
+inputbar {
+  children: [entry];
+}
+
+entry {
+  border: 0 0 1px 0;
+  border-color: #ffffff;
+  padding: 10px 15px;
+  text-color: @entry-fg;
+}
+
+listview {
+  padding: 20px 0 0;
+  spacing: 5px;
+  dynamic: true;
+  scrollbar: false;
+}
+
+element {
+  margin: 5px;
+  padding: 10px;
+  highlight: bold #ffe37f;
+  border-radius: 3px;
+}
+
+element selected {
+  background-color: @selected-bg;
+  text-color: @selected-fg;
+}
+
+message {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: @message-bg;
+}
