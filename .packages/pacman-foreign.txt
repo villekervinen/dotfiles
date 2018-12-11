@@ -1,0 +1,6 @@
+franz-bin
+jetbrains-toolbox
+spotify
+sublime-text-dev
+ungoogled-chromium-bin
+zoom

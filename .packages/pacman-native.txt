@@ -43,12 +43,14 @@ fakeroot
 file
 filesystem
 findutils
+firefox
 flex
 gawk
 gcc-libs
 gcolor2
 gconf
 gettext
+git
 gksu-polkit
 glibc
 gnome-keyring
@@ -86,6 +88,7 @@ lib32-vulkan-radeon
 libtool
 libva-mesa-driver
 libva-vdpau-driver
+libvirt
 licenses
 lightdm-slick-greeter
 linux-firmware
@@ -107,6 +110,7 @@ manjaro-hotfixes
 manjaro-i3-settings
 manjaro-release
 manjaro-system
+mariadb-clients
 markdown_previewer
 mdadm
 memtest86+
@@ -124,6 +128,7 @@ morc_menu
 mousepad
 nano
 ncdu
+neofetch
 netctl
 network-manager-applet
 networkmanager
@@ -154,10 +159,12 @@ polkit-gnome
 powertop
 procps-ng
 psmisc
+qemu-headless
 qt5-styleplugins
 qt5ct
 ranger
 reiserfsprogs
+ripgrep
 rofi
 rsync
 s-nail
@@ -178,9 +185,11 @@ tlp
 tree
 ttf-bitstream-vera
 ufw
+unzip
 upower
 usbutils
 util-linux
+vagrant
 vi
 viewnior
 vim
@@ -211,9 +220,11 @@ xfce4-power-manager
 xfsprogs
 xorg-server
 xorg-twm
+xorg-xev
 xorg-xhost
 xorg-xinit
 xorg-xkill
 xorg-xprop
 xterm
+zip
 zsh
