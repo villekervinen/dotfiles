@@ -1,6 +1,7 @@
+bibata-cursor-theme
 franz-bin
 jetbrains-toolbox
 spotify
 sublime-text-dev
-ungoogled-chromium-bin
+yay
 zoom
