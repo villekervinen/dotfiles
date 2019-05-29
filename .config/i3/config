@@ -159,6 +159,19 @@ mode "$mode_system" {
 }
 
 #
+# screenshot
+#
+
+bindsym $mod+c mode "$mode_screenshot"; exec --no-startup-id mkdir -p $HOME/screenshots
+set $mode_screenshot screenshot: (a)rea, (s)creen, (o)pen folder
+mode "$mode_screenshot" {
+    bindsym a exec --no-startup-id maim -o --select $HOME/screenshots/$(date +%FT%H:%M:%S).png, mode "default"
+    bindsym s exec --no-startup-id maim $HOME/screenshots/$(date +%FT%H:%M:%S).png, mode "default"
+    bindsym o exec pcmanfm $HOME/screenshots, mode "default"
+    bindsym Escape mode "default"
+}
+
+#
 # autostart
 #
 
