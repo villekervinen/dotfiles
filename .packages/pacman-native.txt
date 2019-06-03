@@ -13,9 +13,12 @@ cryptsetup
 device-mapper
 dhcpcd
 diffutils
+dmidecode
+dnsmasq
 dosfstools
 dunst
 e2fsprogs
+ebtables
 efibootmgr
 fakeroot
 file
@@ -50,6 +53,7 @@ less
 lib32-nvidia-utils
 lib32-opencl-nvidia
 libtool
+libvirt
 licenses
 linux
 linux-firmware
@@ -65,6 +69,7 @@ mdadm
 nano
 neofetch
 netctl
+nfs-utils
 nitrogen
 noto-fonts
 nvidia
@@ -82,6 +87,7 @@ polkit-gnome
 procps-ng
 psmisc
 pulseaudio-alsa
+qemu
 ranger
 reiserfsprogs
 rofi
@@ -98,6 +104,7 @@ tar
 texinfo
 usbutils
 util-linux
+vagrant
 vi
 viewnior
 vim
