@@ -1,6 +1,7 @@
 bibata-cursor-theme
 franz-bin
 jetbrains-toolbox
+openfortivpn
 pulseaudio-ctl
 spotify
 sublime-text-dev

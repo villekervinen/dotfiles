@@ -80,6 +80,7 @@ patch
 pavucontrol
 pciutils
 pcmanfm
+peek
 perl
 php
 pkgconf
@@ -111,6 +112,7 @@ vim
 wget
 which
 xautolock
+xdg-utils
 xfsprogs
 xorg-server
 xorg-xev
