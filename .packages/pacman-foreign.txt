@@ -1,8 +1,8 @@
 bibata-cursor-theme
 franz-bin
 jetbrains-toolbox
-openfortivpn
 pulseaudio-ctl
+slack-desktop
 spotify
 sublime-text-dev
 yay
