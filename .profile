@@ -7,5 +7,5 @@ export GDK_SCALE=2
 export GDK_DPI_SCALE=0.5
 
 if [ -d "$HOME/bin" ]; then
-   PATH="$HOME/bin:$PATH"
+   PATH="$HOME/bin:$HOME/.config/composer/vendor/bin:$PATH"
 fi
