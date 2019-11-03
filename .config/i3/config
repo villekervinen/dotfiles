@@ -135,8 +135,12 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 
 for_window [class="Lxappearance"] floating enable sticky enable border normal
 for_window [class="Nitrogen"] floating enable sticky enable border normal
-for_window [class="Pavucontrol"] floating enable
-for_window [class="Play Your Damn Turn Client"] floating enable
+for_window [class="Pavucontrol"] floating enable border normal
+for_window [class="Peek"] floating enable sticky enable
+for_window [class="Play Your Damn Turn Client"] floating enable border normal
+for_window [class="Steam" title="Friends List"] floating enable
+for_window [title="win0"] floating enable
+for_window [instance="origin.exe"] floating enable
 
 #
 # locker
