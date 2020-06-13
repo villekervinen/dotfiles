@@ -6,5 +6,6 @@ slack-desktop
 spotify
 sublime-text-dev
 ttf-inconsolata-g
+vim-plug
 yay
 zoom
