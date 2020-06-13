@@ -78,6 +78,7 @@ nfs-utils
 nitrogen
 nmap
 noto-fonts
+noto-fonts-emoji
 nvidia
 openfortivpn
 openssh
@@ -113,6 +114,7 @@ sysfsutils
 systemd
 systemd-sysvcompat
 tar
+termite
 texinfo
 the_silver_searcher
 tmux
