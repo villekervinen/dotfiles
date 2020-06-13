@@ -1,32 +1,42 @@
 ! colors
+
 !! special
-*.foreground:  #ffffff
-*.background:  #1d2330
-*.cursorColor: #ffffff
+*.background:  #0D1118
+*.foreground:  #E5E9F0
+*.cursorColor: #ECEFF4
+
 !! black
-*.color0:      #222222
-*.color8:      #999999
+*.color0:      #2E3440
+*.color8:      #3B4252
+
 !! red
-*.color1:      #dd3333
-*.color9:      #ff6666
+*.color1:      #DF525F
+*.color9:      #F55A69
+
 !! green
-*.color2:      #22dd22
-*.color10:     #55ee55
+*.color2:      #B5DD92
+*.color10:     #C7F3A1
+
 !! yellow
-*.color3:      #eeee33
-*.color11:     #ffff66
+*.color3:      #FFF191
+*.color11:     #FFFFA0
+
 !! blue
-*.color4:      #33aaff
-*.color12:     #66ccff
+*.color4:      #4D82C2
+*.color12:     #558FD5
+
 !! magenta
-*.color5:      #dd33dd
-*.color13:     #ee66ee
+*.color5:      #CE95C4
+*.color13:     #E3A4D8
+
 !! cyan
-*.color6:      #33dddd
-*.color14:     #66eeee
+*.color6:      #8CE0F8
+*.color14:     #9AF6FF
+
 !! white
-*.color7:      #cccccc
-*.color15:     #eeeeee
+*.color7:      #D8DEE9
+*.color15:     #ECEFF4
+
 
 Xft.dpi:       120
 Xft.antialias: true
@@ -36,7 +46,7 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-URxvt.font:                       xft:Noto Sans Mono:size=10
+URxvt.font:                       xft:Inconsolata-g:size=10
 URxvt.letterSpace:                -1
 URxvt.depth:                      32
 URxvt.scrollBar:                  false

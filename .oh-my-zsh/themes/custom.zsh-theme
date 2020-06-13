@@ -1,5 +1,5 @@
-PROMPT='%F{blue}${(%):-%m} %F{green}%2c%F{blue} [%f '
-RPROMPT='$(git_prompt_info) %F{blue}] %F{green}%T'
+PROMPT='%F{blue}${(%):-%m} %F{white}%2c%F{white} [%f '
+RPROMPT='$(git_prompt_info) %F{white}] %F{blue}%T'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%F{yellow}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%f"
