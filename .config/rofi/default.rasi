@@ -1,10 +1,10 @@
 * {
-  default-bg:   #1d2330ee;
-  default-fg:   #dddddd;
-  entry-fg:     #ffffff;
-  message-bg:   #343a47;
-  selected-bg:  #50586a;
-  selected-fg:  #ffffff;
+  default-bg:   #4C566Add;
+  default-fg:   #E5E9F0;
+  entry-fg:     #E5E9F0;
+  message-bg:   #2E3440;
+  selected-bg:  #D8DEE9dd;
+  selected-fg:  #2E3440;
 
   spacing: 0;
   background-color: transparent;

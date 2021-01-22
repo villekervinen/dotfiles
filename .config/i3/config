@@ -188,17 +188,19 @@ exec --no-startup-id xautolock -time 10 -locker $locker
 
 bar {
 	position top
+	i3bar_command i3bar --transparency
 	status_command i3blocks
 	colors {
-		background #1d2330
-		statusline #ffffff
-		separator #5294e2
+		background #00000077
 
-		focused_workspace  #317cd6 #317cd6 #ffffff
-		active_workspace   #414a59 #414a59 #ffffff
-		inactive_workspace #414a59 #414a59 #ffffff
-		urgent_workspace   #cc575d #cc575d #ffffff
-		binding_mode       #ffff00 #ffff00 #000000
+		statusline #d8dee9
+		separator #eceff4
+
+		focused_workspace  #4c566a #4c566a #eceff4
+		active_workspace   #2e3440 #2e3440 #d8dee9
+		inactive_workspace #2e3440 #2e3440 #d8dee9
+		urgent_workspace   #bf616a #bf616a #eceff4
+		binding_mode       #ebcb8b #ebcb8b #2e3440
 	}
 }
 bindsym $mod+m bar mode toggle
@@ -208,10 +210,10 @@ bindsym $mod+m bar mode toggle
 #
 
 #                       border  background text    indicator child border
-client.focused          #000000 #317cd6    #ffffff #ffff00   #cccccc
-client.focused_inactive #000000 #303642    #ffffff #999900   #000000
-client.unfocused        #000000 #303642    #cccccc #999900   #000000
-client.urgent           #000000 #cc575d    #ffffff #999900   #cc575d
+client.focused          #000000 #4c566a    #eceff4 #ffff00   #cccccc
+client.focused_inactive #000000 #2e3440    #eceff4 #999900   #000000
+client.unfocused        #000000 #2e3440    #d8dee9 #999900   #000000
+client.urgent           #000000 #bf616a    #ffffff #999900   #cc575d
 client.placeholder      #000000 #111111    #ffffff #999900   #1d2330
 client.background       #000000
 
