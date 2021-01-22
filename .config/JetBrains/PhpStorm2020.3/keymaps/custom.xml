@@ -10,6 +10,11 @@
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt subtract" />
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -32,6 +37,11 @@
     <keyboard-shortcut first-keystroke="ctrl add" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
     <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt add" />
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
