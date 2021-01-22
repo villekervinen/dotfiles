@@ -1,10 +1,9 @@
-bibata-cursor-theme
-franz-bin
+google-chrome
 jetbrains-toolbox
+phpstorm-url-handler
 pulseaudio-ctl
 slack-desktop
 spotify
-sublime-text-dev
 ttf-inconsolata-g
 vim-plug
 yay
