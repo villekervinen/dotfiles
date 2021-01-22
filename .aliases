@@ -11,13 +11,3 @@ alias cfgdca='cfg diff --cached'
 alias cfglgg='cfg log --graph'
 alias cfgst='cfg status'
 
-#
-# vagrant
-#
-
-alias vgst='vagrant global-status'
-alias vp='vagrant provision'
-alias vs='vagrant suspend'
-alias vssh='vagrant ssh'
-alias vst='vagrant status'
-alias vup='vagrant up'
